@@ -1,0 +1,22 @@
+h1 {
+    color:red
+}
+h2 {
+    color:brown
+}
+/* symbol '.' refers to class */
+.monkey {
+    color:limegreen
+}
+purple {
+    color:purple
+}
+.monkey:hover {
+    color:purple;
+    transform: rotateX(90deg);
+    transition: all 2s ease-in-out;
+}
+div {
+    background-color: blue;
+    padding: 0px 50px;
+}
